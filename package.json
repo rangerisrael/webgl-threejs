@@ -1,0 +1,25 @@
+{
+  "name": "threejs_course_3dmaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "(yarn parcel ./index.html) & yarn parcel watch ./index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/stats.js": "0.17.0",
+    "@types/three": "0.93.5",
+    "parcel": "^2.8.3",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "th": "^0.1.1",
+    "three": "^0.152.2",
+    "troika-three-text": "^0.47.1"
+  }
+}
